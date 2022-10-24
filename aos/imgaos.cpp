@@ -16,6 +16,6 @@ int main()
     //   }
     //}
     Image image(0, 0);
-    image.Gauss("plane.bmp");
+    image.Histo("plane.bmp");
 
 }

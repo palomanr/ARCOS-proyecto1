@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ARCOS-proyecto1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aos">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libaos.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 aos"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aos/fast">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libaos.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 aos/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soa">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libsoa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 soa"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soa/fast">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/libsoa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 soa/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-aos">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/image-aos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-aos"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-aos/fast">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/image-aos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-aos/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-soa">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/image-soa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-soa"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-soa/fast">
+				<Option output="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/image-soa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-soa/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/aos/Image_aos.hpp">
+			<Option target="aos"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/aos/imageaos.cpp">
+			<Option target="aos"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/aos/imgaos.cpp">
+			<Option target="aos"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/aos/pruebas_aos.cpp">
+			<Option target="aos"/>
+			<Option target="image-aos"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/common/common.hpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/common/progargs.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/soa/Image_soa.hpp">
+			<Option target="soa"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/soa/imagesoa.cpp">
+			<Option target="soa"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/soa/pruebas_soa.cpp">
+			<Option target="image-soa"/>
+		</Unit>
+		<Unit filename="/Users/tarik/CLionProjects/ARCOS-proyecto1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

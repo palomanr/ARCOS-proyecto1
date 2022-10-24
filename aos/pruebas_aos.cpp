@@ -243,10 +243,13 @@ void Image::Histo(const char *path)
 
     for (int yy = 0; yy < m_height; yy++) {
         for (int xx = 0; xx < m_width; xx++) {
-            Color current = image.GetColor(xx, yy);
-            countColors[current.r] += 1;
-            countColors[current.g + 256] += 1;
-            countColors[current.b + 512] += 1;
+            double n[3];
+            n[0] = m_colors[yy *m_width + xx].r*255.0f;
+            n[1] = m_colors[yy *m_width + xx].g*255.0f;
+            n[2] = m_colors[yy *m_width + xx].b*255.0f;
+            countColors[n[0]] += 1;
+            countColors[n[1] + 256] += 1;
+            countColors[n[2] + 512] += 1;
         }
     }
 
@@ -255,7 +258,7 @@ void Image::Histo(const char *path)
     for (auto current: countColors) {
         file << current;
         file << " ";
-        if (count == 256 || count == 512) {
+        if (count == 255 || count == 511) {
             file << "\n";
         }
         count += 1;
@@ -263,32 +266,6 @@ void Image::Histo(const char *path)
 
     file.close();
 }
-
-/*void Image::Histo(const char* path)
-{
-    Image::Read(path);
-    Image image(m_width, m_height);
-    std::ifstream f;
-    f.open(path, std::ios::in | std::ios::binary);
-
-    if (!f.is_open())
-    {
-        std::cout <<"File could not be opened" << std:: endl;
-        return;
-    }
-    for (int yy = 0; yy < m_height; yy++)
-    {
-        for (int xx = 0; xx < m_width; xx++)
-        {
-            float red, green, blue;
-            red = m_colors[yy *m_width + xx].r;
-            green = m_colors[yy *m_width + xx].g;
-            blue = m_colors[yy *m_width + xx].b;
-
-        }
-    }
-
-}*/
 
 void Image::Gauss(const char *path)
 {

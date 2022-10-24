@@ -1,0 +1,7 @@
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/common.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/aos.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/soa.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/image-aos.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/image-soa.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tarik/CLionProjects/ARCOS-proyecto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
