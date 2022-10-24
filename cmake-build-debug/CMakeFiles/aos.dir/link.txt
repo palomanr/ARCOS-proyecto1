@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libaos.a CMakeFiles/aos.dir/aos/imageaos.cpp.o CMakeFiles/aos.dir/aos/imgaos.cpp.o CMakeFiles/aos.dir/aos/pruebas_aos.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libaos.a
