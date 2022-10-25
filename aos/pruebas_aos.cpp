@@ -258,13 +258,13 @@ void Image::Histo(const char *path)
     for (auto current: countColors) {
         file << current;
         file << " ";
-        if (count == 255 || count == 511) {
-            file << "\n";
-        }
         count += 1;
     }
 
+    file << "\n";
+
     file.close();
+
 }
 
 void Image::Gauss(const char *path)
